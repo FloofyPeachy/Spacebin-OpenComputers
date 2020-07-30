@@ -5,6 +5,7 @@
 local component = require("component")
 local fs = require("filesystem")
 local interwebz = require("internet")
+local filesystem = require("filesystem")
 local shell = require("shell")
 local serialization = require("serialization")
 
