@@ -1,5 +1,5 @@
 # Spacebin-OpenComputers
-A [Spacebin](https://github.com/spacebin-org) Client for OpenComputers.
+A [Spacebin](https://github.com/spacebin-org/spacebin) Client for OpenComputers.
 
 ```
  # spacebin help
