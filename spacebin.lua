@@ -15,6 +15,7 @@ if not component.isAvailable("internet") then
 end
 
 if not filesystem.exists("/usr/lib/json.lua") then
+    shell.execute("mkdir /usr/lib")
     shell.execute("pastebin get E32pxWMu /usr/lib/json.lua")
 end
 
