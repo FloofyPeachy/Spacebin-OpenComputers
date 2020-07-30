@@ -1,7 +1,7 @@
 # Spacebin-OpenComputers
 A [Spacebin](https://github.com/spacebin-org/spacebin) Client for OpenComputers.
 
-This uses [https://github.com/rxi/json.lua](RXI's JSON API). If it is not installed, the client will install it for you.
+This uses [RXI's JSON API](https://github.com/rxi/json.lua). If it is not installed, the client will install it for you.
 ```
  # spacebin help
 Downloads a file from Spaceb.in, text sharing for the final frontier.
