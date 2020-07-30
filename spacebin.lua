@@ -7,7 +7,6 @@ local fs = require("filesystem")
 local interwebz = require("internet")
 local shell = require("shell")
 local serialization = require("serialization")
-local json = require("json")
 
 if not component.isAvailable("internet") then
   print("This program requires an internet card to run.")
@@ -17,6 +16,8 @@ end
 if not filesystem.exists("/usr/lib/json.lua") then
     shell.execute("pastebin get E32pxWMu /usr/lib.json")
 end
+
+local json = require("json")
 
 local args, options = shell.parse(...)
 
